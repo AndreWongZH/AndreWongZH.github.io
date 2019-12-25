@@ -1,39 +1,29 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Andre Wong",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://AndreWongZH.github.io/images/profile_img.jpg",
+    "email": "wongandre98@gmail.com",
+    "phone": "91709973",
+    "website": "https://AndreWongZH.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering in the Faculty of Engineering at the National University of Singapore. I expect to graduate in August, 2023.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "",
+      "city": "Singapore",
+      "countryCode": "SIN",
+      "region": "Singapore"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "AndreWongZH",
+        "url": "http://github.com/AndreWongZH"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Andre Wong",
+        "url": "http://linkedin.com/in/andre-wong-83919717a/"
       }
     ]
   },
@@ -62,31 +52,41 @@
       "level": "",
       "keywords": [
         "C",
-        "C++",
-        "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "React JS",
+        "HTML 5",
+        "CSS",
+        "Python 3",
+        "Node JS",
+        "SQL"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows 10",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Vim",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "name": "Multimedia Software",
+      "level": "",
+      "keywords": [
+        "Adobe Photoshop",
+        "Adobe Illustrator"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "National University of Singapore",
+      "area": "Computer Engineering",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2019-08-13",
       "endDate": "Present",
       "gpa": "",
       "courses": [
