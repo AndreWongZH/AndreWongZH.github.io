@@ -28,4 +28,6 @@ It can also filter out movies based on the ratings indicated.
 
 I gained experience in writing test using rspec and cucumber. Ensure all the test passed in the rspec and also came up with user scenarios when they use the app.
 
+This web application is deployed on heroku: [Rotton Potatoes](https://powerful-crag-39075.herokuapp.com/)
+
 Source: <a href="https://github.com/AndreWongZH/rottenpotatoes-rails-intro"><i class="large github icon "></i>AndreWongZH/rottonpotatoes-rails-intro</a>
