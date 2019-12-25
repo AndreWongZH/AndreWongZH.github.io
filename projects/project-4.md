@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/rotton_square.png
-title: rotton potatoes
+title: Rotton Potatoes
 permalink: projects/rotton_potatoes
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-10
@@ -13,7 +13,7 @@ labels:
 summary: A web application build similar to rotton tomatoes.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/rotton_home.png">
+<img class="ui medium rounded image" src="../images/rotton_home.png">
 
 Rotton Potatoes is a mock movie record web application built from edX course [Agile Development Using Ruby on Rails - The Basics](https://www.edx.org/course/agile-development-using-ruby-on-rails-the-basics). This project help me to learn how to design and deploy a ruby on rails website.
 
