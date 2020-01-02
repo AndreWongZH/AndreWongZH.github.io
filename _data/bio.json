@@ -88,12 +88,16 @@
     {
       "institution": "National University of Singapore",
       "area": "Computer Engineering",
-      "studyType": "B.S.",
+      "studyType": "B.S",
       "startDate": "2019-08-13",
       "endDate": "Present",
       "gpa": "",
       "courses": [
-        "CS1010", "CG1111", "CS1231"
+        "CS1010 Programming Methodology",
+        "CG1111 Engineering Principles and Practice 1",
+        "CS1231 Discrete Structures",
+        "MA1511 Engineering Calculus",
+        "MA1512 Differential Equations for Engineering"
       ]
     }
   ],
@@ -102,8 +106,8 @@
       "company": "Inland Revenue Authority of Singapore",
       "position": "Tax Officer",
       "website": "",
-      "startDate": "Feb 2019",
-      "endDate": "Jun 2019",
+      "startDate": "2019-02-01",
+      "endDate": "2019-06-01",
       "summary": "Communicated with customers enquiring about taxes and methodically explain subsequent actions required to take",
       "highlights": [
         "Clarified with customers on any doubts on taxation laws",
@@ -115,7 +119,7 @@
     {
       "organization": "Overseas Community Involvement Programme to Myanmar",
       "position": "Software Developer",
-      "startDate": "Sep 2019",
+      "startDate": "2019-09-01",
       "summary": "We went to Mother's Home to help out",
       "highlights": [
         "Volunteered to practice interview questions with teenagers; Conducted a mock trial interview for a job.",
