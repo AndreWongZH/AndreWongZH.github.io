@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/smartbrains_square.png
-title: Smartbrain Face-recognition
+title: Smartbrain Face recognition
 permalink: projects/smartbrain
 # All dates must be YYYY-MM-DD format!
 date: 2018-11-01
@@ -28,4 +28,4 @@ Password of users will be hashed by bcrypt-nodejs and then saved in database for
 What I learnt most about this project is learning writing backend code using Express.js and connecting heroku with Postgresql. It was not easy as I struggled to understand how to set up the database on Heroku. There were other problems that I face, such as understanding Cross-Origin Resource Sharing(CORS) and how asynchronous calls to the backend sometimes will not cause react components to refresh. In the end, with the help from fellow programming community and serveral articles on these topics, I had a deeper understanding of these topics.
  
 Source: <a href="https://github.com/AndreWongZH/FaceRecognition_frontend"><i class="large github icon"></i>SmartBrain Frontend</a>
-Source: <a href="https://github.com/AndreWongZH/FaceRecognition_backendy"><i class="large github icon"></i>SmartBrain Backend</a>
+Source: <a href="https://github.com/AndreWongZH/FaceRecognition_backend"><i class="large github icon"></i>SmartBrain Backend</a>

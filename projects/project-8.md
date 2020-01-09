@@ -5,7 +5,7 @@ image: images/vacay-square.png
 title: Astar Tutors
 permalink: projects/astar
 # All dates must be YYYY-MM-DD format!
-date: 2018-12-1
+date: 2018-12-01
 labels:
   - Javascript
   - React.js
