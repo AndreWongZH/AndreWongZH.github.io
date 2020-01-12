@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/astar_square.png
 title: Astar Tutors
 permalink: projects/astar
 # All dates must be YYYY-MM-DD format!
@@ -17,9 +17,12 @@ labels:
 summary: A responsive web application for connecting tutors and tutees
 ---
 
-<img class="ui medium right floated rounded image" src="../images/astar.png">
-<img class="ui medium right floated rounded image" src="../images/astar2.png">
-<img class="ui medium right floated rounded image" src="../images/astar3.png">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/astar.png">
+  <img class="ui image" src="../images/astar2.png">
+</div>
+
+<img class="ui medium right rounded image" src="../images/astar3.png">
 
 [Astar Tutors](https://www.astartutors.sg/) is a web application that I helped create as a collaboration. The project helped me learn how to design and implement a responsive web app.
 

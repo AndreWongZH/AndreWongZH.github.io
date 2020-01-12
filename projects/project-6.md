@@ -13,7 +13,7 @@ labels:
 summary: A responsive web application build using React for searching from a list of robots
 ---
 
-<img class="ui medium right floated rounded image" src="../images/robofriends_home.png">
+<img class="ui large right floated rounded image" src="../images/robofriends_home.png">
 
 Robofriends is a simple project that I build after learn the fundumentals of react. It has several stateless and stateful components that made up the app.
 
