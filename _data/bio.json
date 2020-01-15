@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Andre Wong",
-    "label": "Student",
+    "label": "Year 1 Computer Engineering Student in NUS",
     "picture": "https://AndreWongZH.github.io/images/profile_img.jpg",
     "email": "wongandre98@gmail.com",
     "phone": "91709973",
     "website": "https://AndreWongZH.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the Faculty of Engineering at the National University of Singapore. I expect to graduate in August, 2023.",
+    "summary": "I love both hardware and software. I am a self-taught web developer that loves using React. Currently learning more about hardware in University. I always wanted to combine both to see what projects I can come up with.",
     "location": {
       "address": "",
       "postalCode": "",
