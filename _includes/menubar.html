@@ -15,6 +15,8 @@
     {% endif %}
     {% if num_essays > 0 %}
     <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} item">Essays ({{ num_essays }})</a>
+    {% if num_modules > 0 %}
+    <a href="{{ site.baseurl }}/modules" class=" {% if include.active == "modules" %} active {% endif %} item">Modules ({{ num_modules }})</a>
     {% endif %}
     <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
   </nav>
