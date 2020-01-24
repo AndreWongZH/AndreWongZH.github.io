@@ -24,9 +24,7 @@ summary: A responsive web application for recording todo
   <img class="ui image" src="../images/todo4.png">
 </div>
 
-<img class="ui medium right rounded image" src="../images/astar3.png">
-
-[Todo](https://www.astartutors.sg/) is a web application that I helped create as a collaboration. The project helped me learn how to design and implement a responsive web app.
+[Todo](https://todo2249.herokuapp.com/) is a web application that I helped create as a collaboration. The project helped me learn how to design and implement a responsive web app.
 
 Astar Tutors front end is primarily written using react and components used are from material-ui.
 
