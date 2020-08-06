@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Andre Wong",
-    "label": "Year 1 Computer Engineering Student in NUS",
+    "label": "Year 2 Computer Engineering Student in NUS",
     "picture": "https://AndreWongZH.github.io/images/profile_img.jpg",
     "email": "wongandre98@gmail.com",
     "phone": "91709973",
@@ -95,13 +95,27 @@
       "courses": [
         "CS1010 Programming Methodology",
         "CG1111 Engineering Principles and Practice 1",
+        "CG1112 Engineering Principles and Practice 2",
         "CS1231 Discrete Structures",
         "MA1511 Engineering Calculus",
-        "MA1512 Differential Equations for Engineering"
+        "MA1512 Differential Equations for Engineering",
+        "MA1508E Linear Algebra for Engineering",
+        "CS2040 Data Structures and Algorithms",
+        "EE2026 Digital Design"
       ]
     }
   ],
   "work": [
+    {
+      "company": "The Iterative Collective",
+      "position": "Software Developer",
+      "website": "http://www.gaminite.com/",
+      "startDate": "2020-05-11",
+      "endDate": "2020-08-10",
+      "summary": "Implemented a web application that allow users to showcase their games and to follow others",
+      "highlights": [
+      ]
+    },
     {
       "company": "Inland Revenue Authority of Singapore",
       "position": "Tax Officer",
@@ -118,7 +132,7 @@
   "volunteer": [
     {
       "organization": "Overseas Community Involvement Programme to Myanmar",
-      "position": "Software Developer",
+      "position": "",
       "startDate": "2019-09-01",
       "summary": "We went to Mother's Home to help out",
       "highlights": [
@@ -127,11 +141,25 @@
         "Facilitated children on how to construct a paper pencil holder with 4 other volunteers to make 20 pencil holders.",
         "Tutored children on how to speak simple English; Younger children learn counting from 1 to 10 while older children learn about animals and construction sentences."
       ]
+    },
+    {
+      "organization": "Developer Student Club NUS",
+      "position": "Technology Associate",
+      "startDate": "2019-11-01",
+      "endDate": "2020-08-01",
+      "summary": "Assisted in organising workshops for the NUS student body",
+      "highlights": [
+        "Headed project on creating DSC NUS Tech website",
+        "Conceptualized ideas and prototyped a main website layout",
+        "Customized interactive CSS designs and assigned tasks to team on different parts to work on before reviewing changes",
+        "Conducted workshops for NUS body on basics of HTML, CSS and JavaScript and React",
+        "Guided students step-by-step when facing any problems"
+      ]
     }
   ],
   "references": [
     {
-      "name": "Available upon request",
+      "name": "",
       "reference": ""
     }
   ]
