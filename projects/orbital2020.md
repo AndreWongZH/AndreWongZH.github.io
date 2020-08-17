@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/todo/todo_square.png
+image: images/orbital/orbital_square.jpg
 title: Orbital 2020 Artemis
 permalink: projects/orbital
 # All dates must be YYYY-MM-DD format!
