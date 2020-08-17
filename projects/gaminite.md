@@ -18,8 +18,10 @@ labels:
 summary: A web application for developers to showcase their own games.
 ---
 
-<img class="ui image medium rounded" src="../images/gaminite/profile.jpg">
-<img class="ui image medium rounded" src="../images/gaminite/editprofile.jpg">
+<div class="ui medium rounded images">
+  <img class="ui image" src="../images/gaminite/profile.jpg">
+  <img class="ui image" src="../images/gaminite/editprofile.jpg">
+</div>
 
 For my summer internship, I worked on developing a web application for users to upload games that are created by themselves. Other users are also capable of following the game's development updates. Users and companies can also showcases their list of games that they have developed or invovled in.
 
