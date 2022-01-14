@@ -12,7 +12,7 @@
 
 .spine-target {
   position: fixed;
-  top: calc(100vh - 600px);
+  bottom: 600px;
   left: calc(5% - 4px);
   width: 9px;
   height: 9px;
