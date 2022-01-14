@@ -1,0 +1,56 @@
+@import './constants.css';
+
+.spine {
+  position: fixed;
+  width: 1px;
+  bottom: 0;
+  left: 5%;
+  height: 600px;
+  background: var(--main-green-color) linear-gradient(
+    0deg,rgba(48,58,82,0.93) 1rem,rgba(48,58,82,0) 20vh);
+}
+
+.spine-target {
+  position: fixed;
+  top: calc(100vh - 600px);
+  left: calc(5% - 4px);
+  width: 9px;
+  height: 9px;
+}
+
+.spine-target .circle {
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background: transparent;
+}
+
+.circle::before,
+.circle::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background: transparent;
+}
+.circle::before {
+  border: 1px solid var(--main-green-color);
+  animation: pulse 1500ms infinite;
+}
+.circle::after {
+  border: 1px solid var(--main-green-color);
+  animation: pulse 3000ms infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.40;
+  }
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+}

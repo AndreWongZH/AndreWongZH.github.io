@@ -1,0 +1,250 @@
+@import "./constants.css";
+
+@font-face {
+  font-family: opensans;
+  src: url('./assets/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 85%;
+  margin: 0 auto;
+  font-family: opensans;
+  background: var(--background-color);
+  color: white;
+  max-width: 1200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  /* font-size: 2rem; */
+  color: var(--highlight-color); 
+}
+
+.main-portfolio {
+  position: relative;
+}
+
+.header-container {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container > p {
+  margin: 0.4em 0;
+  font-size: 0;
+}
+
+.letter-animate {
+  font-size: 1.7rem;
+  font-weight: bold;
+  transition: color 300ms ease-in-out;
+  display: inline-block;
+}
+
+.letter-animate:hover {
+  color: var(--highlight-color);
+  animation: jiggle 600ms ease 1;
+}
+
+@keyframes jiggle {
+  0%   { transform: scale(1,1) translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1)   translateY(-15px);}
+  50%  { transform: scale(1.05,.95) translateY(0); }
+  58%  { transform: scale(1,1) translateY(-3px); }
+  65%  { transform: scale(1,1) translateY(0);}
+  100% { transform: scale(1,1) translateY(0);}
+}
+
+.header-one {
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: fadeIn 2500ms ease-in 900ms 1 forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1}
+}
+
+.section-margin,
+footer {
+  margin: 5rem 0;
+}
+
+.text-size {
+  line-height: 1.7rem;
+}
+
+.profile-img {
+  height: 12rem;
+  box-shadow: 3px 3px 25px 5px rgba(0,0,0, 0.6);
+  border-radius: 5%;
+}
+
+.emphasize {
+  color: var(--highlight-color);
+}
+
+.card {
+  position: relative;
+  background: #00ff000c;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.card::before, .card::after {
+  content: '';
+  position: absolute;
+  top: 1.25em;
+  bottom: 1.25em;
+  left: 1.25em;
+  right: 1.25em;
+}
+
+.card::before {
+  border-top: 1px solid #00FF00;
+  border-bottom: 1px solid #00FF00;
+  transform: scale(0, 1);
+  transition: transform ease-out 350ms;
+}
+
+.card::after {
+  border-left: 1px solid #00FF00;
+  border-right: 1px solid #00FF00;
+  transform: scale(1, 0);
+  transition: transform ease-out 350ms;
+}
+
+.card:hover .card-img {
+  opacity: 0.4;
+  transform: scale(1.1);
+}
+
+.card:hover::before {
+  transform: scale(1.1, 1);
+}
+
+.card:hover::after {
+  transform: scale(1, 1.1);
+}
+
+.card-img {
+  display: block;
+  opacity: 1;
+  object-fit: contain;
+  transition: opacity ease-out 350ms;
+  transition: transform 350ms, visibility 350ms ease-in;
+}
+
+.card-text{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity ease-out 350ms;
+  text-align: center;
+}
+
+.card:hover .card-text {
+  opacity: 1;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.footer-end {
+  color: var(--highlight-color);
+  margin-bottom: 3em;
+}
+
+.source {
+  font-size: 0.9rem;
+  color: var(--main-green-color-flushed);
+  opacity: 0.75;
+}
+
+.footer-layout > div > p {
+  margin: 0.4rem 0;
+}
+
+#myCanvasContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .letter-animate {
+    font-size: 3.5rem;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .image-container {
+    width: 40%;
+    margin-left: 3em;
+  }
+
+  .about-text {
+    width: 60%;
+  }
+
+  .col + .col {
+    margin-left: 2em;
+  }
+
+  .skill-container > * {
+    flex-basis: 100%;
+  }
+
+  .project-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: auto;
+    gap: 3rem 1.8rem;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 950px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .text-size {
+    font-size: 1.2rem;
+  }
+}
